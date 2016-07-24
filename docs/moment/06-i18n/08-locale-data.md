@@ -64,4 +64,10 @@ localeData.firstDayOfYear();  // 0-15 this and the first day of week are used
                               // Monday and first week that has Thursday is the
                               // first week of the year (but doy is NOT simply
                               // Thursday).
+                              //The ISO 8601 calendar, It's a 400 year cycle for
+                              //leap years. Generally Thursday will works as
+                              // the first week of year in general cases where
+                              //week starts on Sunday or Monday. That makes counting
+                              //Thursday as the first week since, Mon-Thur is majority in
+                              // January. If DoW is given as Saturday then
 ```
